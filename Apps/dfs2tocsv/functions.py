@@ -108,7 +108,7 @@ def dfs2tocsv(filepath_ds, filepath_shape, output_dir_and_name):
     if not isinstance(shape_df['geometry'][0], LineString):
         print('The file is not a Polyline, please specify a PolyLine instead.')
         return False
-
+    
     # Get grid size
     grid_size = get_grid_size(ds)
 
@@ -126,5 +126,5 @@ def dfs2tocsv(filepath_ds, filepath_shape, output_dir_and_name):
     return resultant_df
 
 
-if __name__ == '__main__':
-    dfs2tocsv(sys.argv[1], sys.argv[2], sys.argv[3])
+#if __name__ == '__main__':
+#    dfs2tocsv(sys.argv[1], sys.argv[2], sys.argv[3])
