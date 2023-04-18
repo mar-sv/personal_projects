@@ -1,2 +1,6 @@
 
 *.csv
+build_a_sql_database/sqlite_database
+build_a_sql_database/test_database
+Naive-Beyes/SMSSpamCollection
+build_a_sql_database/database
